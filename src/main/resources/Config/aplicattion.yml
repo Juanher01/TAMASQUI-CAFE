@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: ProyectoFinal
+  profiles:
+    active: spring.profile.active
+    group:
+        dev:
+          - dev
+#Se configuran algunas propiedades de la aplicación.

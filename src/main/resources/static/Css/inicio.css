@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #eff3f4;
+    padding: 130px 0 0 0;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/Imagenes/WhatsApp\ Image\ 2024-03-27\ at\ 6.35.40\ PM.jpeg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.borrar {
+    background-color: #CE967B;
+    border-radius: 50%;
+    padding: 5px 10px;
+    color: #FFFFFF;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+}
+
+.header-content img {
+    width: 600px; 
+    height: auto; 
+}
+
+.header-content img, .header-content .btn-1 {
+    margin-bottom: 150px;
+    margin-top: -100px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #CE967B;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.btn-1:hover {
+    background-color: #CE967B;
+}
+
+.header-content {
+    text-align: center;
+    position: relative;
+}
+
+.cafe {
+    padding: 100px 0;
+    background-color: #E1E2E6;
+    position: relative;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+
+.cafe-content {
+    text-align: center;
+}
+
+.cafe-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: black;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 30px;
+}
+
+.txt-parrafo {
+    font-size: 16px;
+    color: black;
+    text-align: justify; 
+    margin: 0 auto;
+    max-width: 600px; 
+    padding: 0; 
+    margin-bottom: 35px;
+}
+.cafe-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    padding: 25px;
+}
+
+.cafe-1 {
+    padding: 25px;
+    flex-basis: 30%; 
+    box-sizing: border-box; 
+    text-align: center; 
+    border: 2px solid #CE967B;
+}
+.cafe-1 img {
+    width: 100%; 
+    height: auto; 
+    max-width: 100%; 
+    max-height: 200px; 
+    object-fit: cover; 
+}
+
+.cafe-1 p {
+    font-size: 16px;
+    color: black;
+    text-align: justify; 
+    margin: 0 auto; 
+    max-width: 600px; 
+    padding: 0; 
+    margin-bottom: 35px;
+}
+
+.cafe-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.cafe-1 h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.services {
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(/Imagenes/WhatsApp\ Image\ 2024-03-27\ at\ 6.42.33\ PM.jpeg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.services-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.services-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.services-content p {
+    font-size: 16px;
+    color: white;
+    margin-bottom: 50px;
+    padding: 0 100px;
+}
+
+.services-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.services-1 {
+    padding: 0 100px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-1 img{
+    width: 70px;
+    margin-bottom: 15px;
+}
+
+.services-1 h3 {
+    color: #EACCB3;
+    font-size: 18px;
+}
+
+.general {
+    display: flex;
+}
+
+.general-1 {
+    width: 50%;
+    padding: 100px 250px 100px 100px;
+    background-color: #E1E2E6;
+}
+
+.general-1 p {
+    text-align: justify;
+}
+.general-2 {
+    background-image: url(https://previews.123rf.com/images/photochicken/photochicken1707/photochicken170700044/81807735-barista-personas-haciendo-caf%C3%A9-con-m%C3%A1quina-de-caf%C3%A9-en-el-caf%C3%A9.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+.general-3 {
+    background-image: url(https://th.bing.com/th/id/R.73ee9156a0a587d9cbe03759fefbf110?rik=oPPWiTn1ueV3Hw&pid=ImgRaw&r=0);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+
+h2 { 
+    font-size: 55px;
+    line-height: 70px;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: black;
+    margin: 25px 0 45px 0;
+}
+
+.product img{
+    height: 250px;
+
+}
+
+.product-txt {
+    margin-top: 25px;
+}
+
+.product-txt h4 {
+    color: #CE967B;
+    font-size: 20px;
+    margin: 0;
+}
+
+.product-txt p {
+    color: #a1a1a1;
+    font-size: 16px;
+    margin: 0;
+}
+
+.price {
+    color: #CE967B;
+}
+
+.blog {
+    padding: 100px 0;
+    text-align: center;
+}
+
+.blog-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-1 {
+    padding: 25px;
+    flex-basis: 30%; 
+    box-sizing: border-box; 
+    text-align: justify; 
+    border: 2px solid #CE967B;
+}
+
+.blog-1 img {
+    width: 250px;
+    border-radius: 15px;
+}
+
+.blog-1 h3 {
+    font-size: 25px;
+    color: black;
+    text-align: center;
+}
+
+@media(max-width:991px){
+
+    .services {
+        padding: 30px;
+
+    }
+
+    .services-content p {
+        padding:0;
+    }
+
+    .services-group {
+        flex-direction:column;
+        margin-bottom: 0;
+    }
+
+    .services-1 {
+        margin-bottom: 25px;
+    }
+}
+

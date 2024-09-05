@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Css/login.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="/Javascript/adminlogin.js"></script>
+</head>
+<body>
+    
+    <div x-data="{username: '', password: '', token: ''}" class="Formulario">
+        <form id="loginForm" @submit.prevent="login">
+            
+            <div class="input-box">
+                 <input type="text" id="username" x-model="username" placeholder="Usuario" required><i class="bi bi-person"></i>
+            </div>
+            <div class="input-box">
+                <input type="password" id="password" x-model="password" placeholder="Contraseña" required><i class="bi bi-lock"></i>
+            </div>
+
+            <div class="botones-container">
+                <button type="submit" class="btn btn-primary"><i>Log in</i></button>
+                <button type="button" class="btn btn-secondary" @click="signup"><i>Sign up</i></button>
+                <button type="button" class="btn btn-light" @click="goBack"><i>Regresar</i></button>
+            </div>
+        </form>
+        <button @click="logout" class="btn btn-danger x-token" style="display: none;"><i>Log out</i></button>
+        <br>
+        <div x-show="token" class="alert alert-success mensaje-sesion">
+           <h2>Hola! Has iniciado sesión</h2> 
+        </div>
+    </div>
+</body>
+</html>

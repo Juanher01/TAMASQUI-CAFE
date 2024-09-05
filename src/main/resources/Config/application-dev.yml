@@ -1,0 +1,34 @@
+logging:
+  level:
+    root: DEBUG
+    com.example.demo: DEBUG
+    org.hibernate.SQL: DEBUG
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    url: jdbc:postgresql://localhost:5432/tamasqui
+    username: postgres
+    password: 123456
+    hikari:
+      pool-name: Hikari
+      auto-commit: false
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: none
+
+server:
+  port: 8080
+
+application:
+  security:
+    authentication:
+      jwt:
+        base64secret: RWqUKfubktdCrDURZ1zWueQ2vDrJ8PI1wWu8y50mBS04DgXAfv7xNGC2/HAWszPRYZ8+Q0wGvEn5xt+pzWM6x2Ym25TZqlhC21Hfg9UBOuuzUqZTBEwOOh2e5qZfLBtmGRt61E0HJvCnu7bDYTau/4teihmOXpBrYuD9ZZTPpWTt+njSUTS/i6jnkonxng/yRhDlXqu2FbdBI8FqNQu6yn3kbE2Anj0l4YgYdS9yOJUA2ApvsdLNPFTCcvaQ+YcFUim7JVYfW7KQMJNgH2kLvWnNXIgflpTNQZ+0CSCo19nLP/3qqB1Z8q8FeeJCTwGLInuaI8FRbcz2/1xkNB9o4g=
+        token-validity-in-seconds: 86400
+  mercado-pago:
+    access-token: TEST-8071710669033047-052215-a24d0bce36b77f01a1599ff7ad34062d-1823124441

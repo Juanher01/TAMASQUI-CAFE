@@ -1,0 +1,120 @@
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #111419;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/Imagenes/WhatsApp\ Image\ 2024-03-27\ at\ 6.35.05\ PM\ \(1\).jpeg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.Formulario h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.h2 {
+ background-color: white;
+}
+
+.Formulario form {
+    width: 300px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-box { 
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.input-box input { 
+    width: calc(100% - 40px);
+    padding: 10px;
+    padding-right: 40px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.input-box i { 
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #888;
+}
+
+.botones-container {
+    display: flex;
+    justify-content: space-between; 
+    gap: 10px; /* Añadir espacio entre los botones */
+}
+
+.botones-container button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.botones-container button:hover {
+    background-color: #0056b3;
+}
+
+.btn-light {
+    background-color: #f8f9fa;
+    color: #000;
+    border: 1px solid #ccc;
+}
+
+.btn-light:hover {
+    background-color: #e2e6ea;
+}
+
+.mensaje-sesion {
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.alert.alert-success {
+    background-color: transparent; /* para que no tenga fondo */
+}
+
+.btn-logout {
+    background-color: #dc3545; /* Color de fondo rojo */
+    color: white; /* Color de texto blanco */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espacio interno */
+    cursor: pointer; /* Cambiar cursor a pointer */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+.btn-logout:hover {
+    background-color: #c82333; /* Cambiar color de fondo al pasar el mouse */
+}

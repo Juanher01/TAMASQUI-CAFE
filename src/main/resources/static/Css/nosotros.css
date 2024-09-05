@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: #eff3f4;
+    padding: 130px 0 0 0;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(/Imagenes/WhatsApp\ Image\ 2024-03-27\ at\ 6.35.40\ PM.jpeg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    
+}
+
+.header-content img {
+    width: 600px; 
+    height: auto; 
+}
+
+.header-content img, .header-content .btn-1 {
+    margin-bottom: 150px;
+    margin-top: -100px;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #CE967B;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+
+.btn-1:hover {
+    background-color: #CE967B;
+}
+
+.header-content {
+    text-align: center;
+    position: relative;
+}
+
+.image-row {
+    margin-bottom: -250px; /* Ajusta este valor según sea necesario */
+}
+
+.general {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: #CE967B;
+}
+
+.general-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.general-1 img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+
+.general-2 {
+    margin: 0; /* Agrega esto para eliminar el margen */
+    width: 100%;
+    background-color: #f4f4f4;
+    height: 200px; /* Ajusta según sea necesario */
+}
+
+h2 { 
+    font-size: 55px;
+    line-height: 70px;
+    color: black;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: black;
+    margin: 25px 0 45px 0;
+}
+
+.cafes {
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eff3f4;
+}
+
+.cafes hr {
+    width: 5%;
+}
+
+.cafes-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.cafe-1 {
+    flex-basis: calc(33.3% - 20px);
+    border: 3px solid #CE967B;
+    padding: 30px 50px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+.cafe-1 span {
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+}
+
+.cafes h3 {
+    color: white;
+}
+
+.cafes h2 {
+    color: white;
+}
+
+.cafe-1 a.btn-1  {
+    padding: 8px;
+    font-size: 25px;
+    color: #ffffff;
+    margin: 25px 0 35px 0;
+    background: linear-gradient(90deg, #CE967B 0%, #000000 100%);
+
+}
+
+.cafe-1 p {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.cafes {
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(https://tse3.mm.bing.net/th/id/OIG3.KD0qPSXbCKrCQvRX_ink?pid=ImgGn); /* Reemplaza 'ruta/de/la/imagen.jpg' con la ruta de tu imagen */
+    background-size: cover; 
+    background-position: center; 
+    padding: 50px; 
+}
+
+.cafe-1 a{
+    color: white;
+}
+
+.cafe-link:hover {
+    color: #CE967B;
+}
+
+.video-container {
+    text-align: center;
+}
+
+.video-container a {
+    color: white; 
+    text-decoration: none; 
+}
+
+.youtube-icon {
+    font-size: 1000px; 
+}
+
+@media(max-width: 768px) {
+    .general-1 img {
+        width: 100%; 
+    }
+
+    .cafes-content {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .cafe-1 {
+        flex-basis: calc(100% - 20px); 
+    }
+}
